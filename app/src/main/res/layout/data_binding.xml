@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="myName"
+            type="com.deepesh.layouts.files.MyName" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DataBinding">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:text="@={myName.name}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/nickname_edit"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/done_button"
+            android:text="Done"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/nickname_text"
+            android:textAlignment="center"
+            android:text="@={myName.nickname}"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/start_image"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        
+        <ScrollView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <TextView
+                android:id="@+id/bio_text"
+                android:textSize="25sp"
+                android:text="@string/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>
+

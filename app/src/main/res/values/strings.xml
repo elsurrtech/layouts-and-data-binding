@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layouts</string>
+
+    <string name="name">Deepesh Sengar</string>
+    <string name="hint">What is your Nickname?</string>
+    <string name="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis posuere vulputate. Nunc rutrum metus non nisi blandit, id sagittis mi porttitor. Quisque imperdiet enim tempus eros ultricies, a vestibulum libero congue. Sed eu venenatis orci. Aliquam odio erat, fringilla at justo efficitur, ultricies ornare lectus. Vestibulum vel sagittis sapien. Aliquam ac placerat turpis, sit amet iaculis risus.
+
+Curabitur feugiat magna sed feugiat tempor. Etiam viverra tristique sapien, sit amet aliquam nulla sagittis ut. Mauris dictum venenatis vestibulum. Suspendisse vitae magna ut mi imperdiet hendrerit. Mauris sit amet tempus velit. Nullam efficitur metus lacus, quis placerat purus euismod tincidunt. Cras fringilla ante est, ac aliquam urna viverra vel.</string>
+</resources>
