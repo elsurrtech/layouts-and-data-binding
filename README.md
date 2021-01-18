@@ -13,4 +13,4 @@ It includes:
 Scrollview
 RelativeLayout
 LinearLayout
-![](images/1_1.jpeg)
+<img src="images/1_1.jpeg" width="200"> 
